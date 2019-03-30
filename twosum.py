@@ -1,4 +1,3 @@
-
 #o(n^2)  since its 2D loop
 def twoSum(nums,target):
     for i in range(len(nums)):
@@ -31,4 +30,5 @@ def dicway(nums,target):
 if __name__ == "__main__":
     #twoSum([2, 7, 11, 15],9)
     dicway([2, 7, 11, 15],9)
+
 
