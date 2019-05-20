@@ -1,6 +1,19 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        
+    def maxProfit(self, prices) -> int:
+        sumprofit = 0
+
+        for i in range(1,len(prices)):
+            if prices[i] > prices[i-1]:
+                sumprofit += prices[i] - prices[i-1]
+                #纯粹的减法问题，不必考虑过于复杂
+
+
+
+
+
+
+        print(sumprofit)
+        return sumprofit
 
 
 
